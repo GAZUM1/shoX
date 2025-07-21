@@ -1,0 +1,210 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Café elmashreq - Menu</title>
+  <link rel="icon" type="image/png" href="favicon.png"> <!-- ✅ سطر favicon -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f5ebe0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #6f4e37;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+    h2.section-title {
+      color: #6f4e37;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .card {
+      background-color: #fff8f0;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card-text {
+      font-weight: bold;
+      color: #6f4e37;
+    }
+    .order-btn {
+      background-color: #6f4e37;
+      color: #fff;
+      border: none;
+      margin-top: 10px;
+    }
+    .order-btn:hover {
+      background-color: #5a3d2d;
+    }
+    footer {
+      background-color: #6f4e37;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Café elmashreq</a>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!-- Juices Section -->
+    <h2 class="section-title">العصائر</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="orange.jpg" class="card-img-top" alt="Orange Juice">
+          <div class="card-body text-center">
+            <h5 class="card-title">عصير برتقال</h5>
+            <p class="card-text">25 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="OIP (1).jpg" class="card-img-top" alt="Mango Juice">
+          <div class="card-body text-center">
+            <h5 class="card-title">عصير مانجو</h5>
+            <p class="card-text">30 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="OIP.jpg" class="card-img-top" alt="Strawberry Juice">
+          <div class="card-body text-center">
+            <h5 class="card-title">عصير فراولة</h5>
+            <p class="card-text">28 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="OIP (2).jpg" class="card-img-top" alt="Lemon Mint">
+          <div class="card-body text-center">
+            <h5 class="card-title">ليمون بالنعناع</h5>
+            <p class="card-text">26 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="guva.jpg" class="card-img-top" alt="Guava Juice">
+          <div class="card-body text-center">
+            <h5 class="card-title">عصير جوافة</h5>
+            <p class="card-text">24 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cold Desserts Section -->
+    <h2 class="section-title">كورسو (حلويات باردة)</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="OIP (3).jpg" class="card-img-top" alt="Cheesecake">
+          <div class="card-body text-center">
+            <h5 class="card-title">تشيز كيك</h5>
+            <p class="card-text">35 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="trameso.jpg" class="card-img-top" alt="Tiramisu">
+          <div class="card-body text-center">
+            <h5 class="card-title">تيراميسو</h5>
+            <p class="card-text">40 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="OIP (4).jpg" class="card-img-top" alt="Chocolate Mousse">
+          <div class="card-body text-center">
+            <h5 class="card-title">موس شوكولاتة</h5>
+            <p class="card-text">32 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="OIP (5).jpg" class="card-img-top" alt="Fruit Salad">
+          <div class="card-body text-center">
+            <h5 class="card-title">سلطة فواكه</h5>
+            <p class="card-text">30 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coffee Section -->
+    <h2 class="section-title">القهوة</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+      <div class="col">
+        <div class="card">
+          <img src="OIP (6).jpg" class="card-img-top" alt="Espresso">
+          <div class="card-body text-center">
+            <h5 class="card-title">إسبريسو</h5>
+            <p class="card-text">22 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="cabtshino.jpg" class="card-img-top" alt="Cappuccino">
+          <div class="card-body text-center">
+            <h5 class="card-title">كابتشينو</h5>
+            <p class="card-text">26 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="coffee-cup-cartoon-clipart-caffeine-sticker_609360_wh1200.png" class="card-img-top" alt="Turkish Coffee">
+          <div class="card-body text-center">
+            <h5 class="card-title">قهوة تركي</h5>
+            <p class="card-text">20 جنيه</p>
+            <button class="btn order-btn">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Café Aroma | جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
